@@ -20,98 +20,128 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Ivan Faerman",
+  initials: "IF",
+  location: "New York, US",
+  locationLink: "https://www.google.com/maps/place/New_York",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "MBA / Creative & Marketing Program Management, Strategy & Operations, Universidad de San Andrés / Kellogg School of Management",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Experienced executive with a comprehensive background in strategy, production, and operations within the creative services, digital studios and ad agencies industry. My career spans various leadership roles, where I've consistently championed creativity, and driven efficiency, innovation, and profitability.",
+  avatarUrl: "/Ivan_Faerman.jpg",
+  personalWebsiteUrl: "https://ifaerman.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "ivan.faerman@gmail.com",
+    tel: "+",
     social: [
       {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ifaerman/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/ifaerman",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Northwestern University, Kellog School of Management",
+      degree: "MBA, Foreign Exchange Program",
+      start: "2018",
+      end: "2018",
+    },
+    {
+      school: "University of San Andrés (Argentina)",
+      degree: "Masters in Business Administration",
+      start: "2017",
+      end: "2019",
+    },
+    {
+      school: "University of Belgrano (Argentina)",
+      degree: "BA Film & TV Production",
+      start: "2008",
+      end: "2012",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Stink Studios",
+      link: "https://www.stinkstudios.com/", // UPDATE
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      title: "Head of Production & Operations",
+      logo: ParabolLogo, // UPDATE
+      start: "2023", 
+      end: "Present",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Lorem ipsum dolor sit amet", // UPDATE
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Stink Studios",
+      link: "https://www.stinkstudios.com/",
       badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Head of Delivery",
+      logo: ClevertechLogo,  // UPDATE
+      start: "2020",
+      end: "2022",
+      description:
+      "Lorem ipsum dolor sit amet", // UPDATE
+    },
+    {
+      company: "Dift.co",
+      link: "https://www.website.com/",
+      badges: [],
+      title: "Role",
+      logo: ClevertechLogo,  // UPDATE
+      start: "2020",  // UPDATE
+      end: "2022", // UPDATE
+      description:
+      "Lorem ipsum dolor sit amet", // UPDATE
+    },
+    {
+      company: "Filo.news",
+      link: "https://www.website.com/",
+      badges: [],
+      title: "Role",
+      logo: ClevertechLogo,  // UPDATE
+      start: "2020",  // UPDATE
+      end: "2022", // UPDATE
+      description:
+      "Lorem ipsum dolor sit amet", // UPDATE
+    },
+    {
+      company: "R/GA",
+      link: "https://www.website.com/",
+      badges: [],
+      title: "Role",
+      logo: ClevertechLogo,  // UPDATE
+      start: "2020",  // UPDATE
+      end: "2022", // UPDATE
+      description:
+      "Lorem ipsum dolor sit amet", // UPDATE
+    },
+    {
+      company: "Company",
+      link: "https://www.website.com/",
+      badges: [],
+      title: "Role",
+      logo: ClevertechLogo,  // UPDATE
+      start: "2020",  // UPDATE
+      end: "2022", // UPDATE
+      description:
+      "Lorem ipsum dolor sit amet", // UPDATE
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "LoremIpsum",
+    "LoremIpsum",
+    "LoremIpsum",
+    "LoremIpsum",
+    "LoremIpsum",
+    "LoremIpsum",
+    "LoremIpsum",
   ],
   projects: [
     {
@@ -201,78 +231,6 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://parabol.co/",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
