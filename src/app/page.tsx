@@ -19,7 +19,7 @@ export default function Page() {
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       
       {/* Page Container */}
-      <section className="mx-auto w-full max-w-2xl space-y-8 print:space-y-6"> {/* UPDATE COLOR */}
+      <section className="border mx-auto w-full max-w-2xl space-y-8 print:space-y-6"> {/* UPDATE COLOR */}
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5 mr-2">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
@@ -96,13 +96,19 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-        <Section>
+        
+
+        {/* ABOUT */}
+        <Section className="border">
           <h2 className="text-xl font-bold">About</h2>
           <p className="text-pretty  text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
-        <Section>
+
+
+        {/* WORK */}
+        <Section className="border">
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -142,7 +148,10 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+
+
+        {/* EDUCATION */}
+        <Section className="border">
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
@@ -162,7 +171,10 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+
+
+        {/* EDUCATION */}
+        <Section className="border">
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
