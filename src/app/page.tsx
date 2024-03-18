@@ -19,9 +19,9 @@ export default function Page() {
     <main className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-12 md:p-16">
       
       {/* Page Container */}
-      <section className="mx-auto w-full max-w-2xl space-y-8 bg-zinc-400 print:space-y-6"> {/* UPDATE COLOR */}
+      <section className="mx-auto w-full max-w-2xl space-y-8 print:space-y-6"> {/* UPDATE COLOR */}
         <div className="flex items-center justify-between">
-          <div className="flex-1 border space-y-1.5 mr-2">
+          <div className="flex-1 space-y-1.5 mr-2">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
             <p className="max-w-md text-pretty text-sm text-muted-foregroun pb-2">
               {RESUME_DATA.about}
@@ -171,7 +171,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="hidden print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
