@@ -76,7 +76,7 @@ export const RESUME_DATA = {
       start: "2023", 
       end: "Present",
       description:
-        "Lorem ipsum dolor sit amet", // UPDATE
+        "Responsible for the entire production pipeline of the studio, ensuring efficient and timely delivery of projects. Partner with the Managing Director, Finance, and Production functions to review monthly financial performance, utilization, project performance, and budget planning/modeling, and frequently advise on how to revise and optimize for profitability. Partner with the Managing Director on Stink Studios' strategic direction and long-term business objectives.", 
     },
     {
       company: "Stink Studios",
